@@ -11,8 +11,8 @@ logging.basicConfig(level=logging.INFO)
 
 # LINE API 配置
 LINE_API_URL = 'https://api.line.me/v2/bot/message/push'
-CHANNEL_ACCESS_TOKEN = os.getenv('2005652444')
-USER_ID = os.getenv('Ua2ae1384101f06cf711a949b9b6e73a1')
+CHANNEL_ACCESS_TOKEN = os.getenv('CHANNEL_ACCESS_TOKEN')
+USER_ID = os.getenv('USER_ID')
 
 # 定義異步抓取數據的函數
 async def fetch(session, url, data_ids):
